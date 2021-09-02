@@ -13,7 +13,7 @@ canvas1.pack()
 var1 = StringVar()
 def sound():
     print(var1.get())
-    if var1.get()=="off":
+    if var1.get()=="on":
         winsound.Beep(400, 1000)
 
 check_1=Checkbutton(root, text="Accept", variable=var1,onvalue="on",offvalue="off")
